@@ -1,0 +1,82 @@
+/* Home.css */
+
+/* Estilos para o cabeçalho e título no topo */
+.header-top {
+    padding: 10px 20px;
+    background-color: #f3f3f3;
+    text-align: left;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Barra de navegação logo abaixo do título */
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 15px;
+}
+
+.account-btn, .cart-btn {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    width: calc(100% - 220px); /* Ajuste para a largura da sidebar */
+}
+
+.product-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+}
+
+.product-image {
+    width: 100%;
+    max-height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
